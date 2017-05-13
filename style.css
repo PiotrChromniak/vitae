@@ -45,12 +45,13 @@ h1, h2 {
 /**********/
 .intro {
     position: relative;
+    overflow: hidden;
 }
 .face {
     width: 26.8mm;
     border-radius: 50%;
     position: absolute;
-    top: -1.4mm;
+    top: -1.3mm;
     right: -1.4mm;
     border: 1.4mm solid #fff;
 }
@@ -62,7 +63,7 @@ h1 {
 .links {
     width: 50%;
     float: left;
-    margin: 3.5mm 0;
+    margin: 3.5mm 0 0;
     padding: 0;
     list-style-type: none;
 }
@@ -85,12 +86,32 @@ a:hover, a:hover .pop, a:hover .fa {  color: #006683; }
 h3 {
     color: #006683;
     font-size: 12pt;
-    margin: 2mm 0 0 40mm;
 }
-p {
-    margin: 0  0 0 40mm;
+h3, p {
+    margin: 0 0 1mm;
 }
-.timeframe { float: left; font-size: 12pt; }
+
+.parallel { display: flex; }
+.parallel section {
+    flex: 1 1 0;
+    margin-left: 4mm;
+}
+.parallel section:first-child {
+    margin-left: 0;
+}
+
+.timeline-entry {
+    display: flex;
+    margin-bottom: 1mm;
+    align-items: center;
+}
+.interval {
+    margin-right: 4mm;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    font-size: 10pt;
+}
 .current { color: #707070; }
 
 .enum {
