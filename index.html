@@ -28,18 +28,18 @@
           </ul>
         </section>
         <div class="parallel">
-          <section>
+          <section class="parallel-item">
             <h2>Doświadczenie zawodowe</h2>
             <div class="timeline-entry">
               <div class="interval">
                 <div>10.2016</div>
                 <div>&ndash;</div>
-                <div class="current">obecnie</div>
+                <div class="fade">obecnie</div>
               </div>
               <div>
                 <h3>Big Data Developer &bullet; Comarch</h3>
-                <p>Rozwój aplikacji implementującej proces ETL przetwarzający wsadowo dane operatora sieci telekomunikacyjnej</p>
-                <p>Scala, Akka, Hadoop, Spark, Impala, HBase</p>
+                <p>Rozwój procesu ETL przetwarzającego dane operatora sieci telekomunikacyjnej</p>
+                <p class="fade">Scala, Akka, Hadoop, Cloudera Manager, Spark, Impala, HBase</p>
               </div>
             </div>
             <div class="timeline-entry">
@@ -50,18 +50,18 @@
               </div>
               <div>
                 <h3>Staż programistyczny &bullet; Comarch</h3>
-                <p>Zaprojektowanie i wdrożenie Proof-of-Concept aplikacji przetwarzającej dane w czasie rzeczywistym</p>
-                <p>Scala, Spark Streaming</p>
+                <p>Stworzenie proof-of-concept aplikacji przetwarzającej dane w czasie rzeczywistym</p>
+                <p class="fade">Scala, Spark Streaming</p>
               </div>
             </div>
           </section>
-          <section>
+          <section class="parallel-item">
             <h2>Wykształcenie</h2>
             <div class="timeline-entry">
               <div class="interval">
                 <div>10.2014</div>
                 <div>&ndash;</div>
-                <div class="current">obecnie</div>
+                <div class="fade">obecnie</div>
               </div>
               <div>
                 <h3>Akademia&nbsp;Górniczo-Hutnicza im.&nbsp;Stanisława&nbsp;Staszica w&nbsp;Krakowie</h3>
@@ -81,60 +81,95 @@
             </div>
           </section>
         </div>
-
+        <!-- <div class="parallel"> -->
         <section>
           <h2>Umiejętności</h2>
-          <div class="level">
-            <i class="fa fa-plus-circle"></i>
-            <i class="fa fa-plus-circle"></i>
-            <i class="fa fa-plus-circle"></i>
+          <div class="parallel">
+            <div class="parallel-item skill-group">
+              <div class="level">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+              <ul>
+                <li>Scala</li>
+                <li>Java</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Programowanie funkcyjne</li>
+              </ul>
+            </div>
+            <div class="parallel-item skill-group">
+              <div class="level">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+              <ul>
+                <li>Akka</li>
+                <li>Git</li>
+                <li>JIRA</li>
+                <li>SQL</li>
+                <li>REST</li>
+                <li>JavaScript</li>
+                <li>Bash</li>
+              </ul>
+            </div>
+            <div class="parallel-item skill-group">
+              <div class="level">
+                <i class="fa fa-star"></i>
+              </div>
+              <ul>
+                <li>Python</li>
+                <li>Unity</li>
+                <li>C#</li>
+                <li>C++</li>
+              </ul>
+            </div>
           </div>
-          <ul class="enum skills">
-            <li>Scala, idiomy funkcyjne, system aktorów</li>
-            <li>Java</li>
-            <li>SQL</li>
-            <li>HTML i CSS</li>
-          </ul>
-          <div class="level">
-            <i class="fa fa-plus-circle"></i>
-          </div>
-          <ul class="enum skills">
-            <li>Git</li>
-            <li>Bash</li>
-            <li>JavaScript</li>
-            <li>PHP</li>
-            <li>Python</li>
-            <li>C#</li>
-            <li>C++</li>
-          </ul>
         </section>
         <section>
           <h2>Cechy</h2>
           <ul class="enum alternating">
-            <li>Piszę czytelny kod z&nbsp;odpowiednimi nazwami, każdego dnia starając się stosować częściej zasady, takie jak DRY, KISS, YAGNI, SRP</li>
+            <li>Piszę czytelny kod</li>
+            <li>Stosuję zasady takie jak DRY, KISS, YAGNI, SRP</li>
             <li>Aktywnie uczestniczę w&nbsp;planowaniu rozwiązań problemów</li>
-            <li>Sprawnie przekazuję innym swoją wiedzę</li>
-            <li>Piszę bardzo dobrze po angielsku, mówię trochę słabiej</li>
-            <li>Potrafię osiągnąć kompromis w grupie i&nbsp;podzielić się pracą</li>
-            <li>Śledzę aktualności w&nbsp;branży</li>
-            <li>Jestem samodzielny: wymyślam lub znajduję rozwiązania, nie boję się eksperymentować, wycofuję się z&nbsp;nietrafionych pomysłów, dążę do&nbsp;realizacji dobrych</li>
-            <li>Piszę skrypty automatyzujące rutynowe czynności</li>
-            <li>Czytam książki i&nbsp;blogi techniczne, uczestniczę w&nbsp;meetupach</li>
+            <li>Sprawnie przekazuję swoją wiedzę</li>
+            <li>Potrafię osiągnąć kompromis w grupie i&nbsp;podzielić pracę</li>
+            <li>Eksperymentuję, wycofuję się z&nbsp;nietrafionych pomysłów, dążę do&nbsp;realizacji dobrych</li>
+            <li>Automatyzuję rutynowe czynności skryptami</li>
+            <li>Piszę bardzo dobrze po&nbsp;angielsku</li>
+            <li>Śledzę aktualności w&nbsp;branży i&nbsp;rozwój ciekawych języków typu Rust</li>
+            <li>Czytam książki i&nbsp;blogi techniczne</li>
+            <li>Uczestniczę w&nbsp;meetupach i&nbsp;warsztatach</li>
           </ul>
+        </section>
+        <!-- </div> -->
+        <!-- <div class="parallel"> -->
+        <section>
+          <h2>Osiągnięcia</h2>
+          <div class="timeline-entry">
+            <div class="interval"><div>04.2017</div></div>
+            <div>Nagroda specjalna od Summer Agency <span class="fade">&bullet;&nbsp;hakaton Inspiring Hacks</span></div>
+          </div>
+          <div class="timeline-entry">
+            <div class="interval">03.2017</div>
+            <div>Drugie miejsce <span class="fade">&bullet;&nbsp;hakaton Hacknarök</span></div>
+          </div>
         </section>
         <section>
           <h2>Czas wolny</h2>
           <ul class="enum alternating">
-            <li>Planszówki</li>
-            <li>Taniec</li>
+            <li>Gry planszowe</li>
+            <li>Taniec towarzyski</li>
+            <li>Seriale i&nbsp;filmy anglojęzyczne</li>
             <li>Bieganie</li>
-            <li>Seriale i filmy anglojęzyczne</li>
-            <li>Wypieki</li>
+            <li>Układanie playlist w&nbsp;Spotify</li>
+            <li>Gotowanie i&nbsp;wypieki</li>
             <li>Lyric Videos</li>
             <li>Photoshop</li>
-            <li>Układanie playlist na Spotify</li>
           </ul>
         </section>
+        <!-- </div> -->
         <footer>
           <div>Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji procesu rekrutacji</div>
           <div>(zgodnie z Ustawą z dnia 29.08.1997 roku o Ochronie Danych Osobowych; tekst jednolity: Dz.U.z 2014r., poz.1182 ze zm.).</div>

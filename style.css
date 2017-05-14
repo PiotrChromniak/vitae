@@ -32,10 +32,10 @@ body {
 h1, h2 {
     color: #fff;
     background-color: #006683;
-    text-align: right;
+    text-align: left;
     text-transform: uppercase;
     font: 400 14pt "Signika";
-    padding: 1mm 5mm;
+    padding: 1mm 4mm;
     margin: 3.5mm 0;
     clear: both;
 }
@@ -92,11 +92,11 @@ h3, p {
 }
 
 .parallel { display: flex; }
-.parallel section {
+.parallel-item {
     flex: 1 1 0;
     margin-left: 4mm;
 }
-.parallel section:first-child {
+.parallel-item:first-child {
     margin-left: 0;
 }
 
@@ -112,7 +112,7 @@ h3, p {
     align-items: center;
     font-size: 10pt;
 }
-.current { color: #707070; }
+.fade { color: #707070; }
 
 .enum {
     margin: 0;
@@ -128,9 +128,29 @@ h3, p {
 }
 .enum li:first-child:before {  content: ""; }
 
-.level { float: left; color: #006683; }
-.skills { margin-left: 20mm; }
+.level {
+    color: #464646;
+    margin-bottom: 1mm;
+}
 
+.skill-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.skill-group ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.skill-group li {
+    list-style-type: none;
+    margin: 1mm;
+    border-radius: 1mm;
+}
 
 /************/
 /* FOOTNOTE */
