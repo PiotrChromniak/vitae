@@ -31,7 +31,7 @@ body {
 }
 h1, h2 {
     color: #fff;
-    background-color: #006683;
+    background-color: #106d88;
     text-align: left;
     text-transform: uppercase;
     font: 400 14pt "Signika";
@@ -77,14 +77,14 @@ h1 {
 .links .pop { color: #000; }
 .links .fa  { color: #464646; }
 a { text-decoration: none; }
-a:hover, a:hover .pop, a:hover .fa {  color: #006683; }
+a:hover, a:hover .pop, a:hover .fa {  color: #106d88; }
 
 
 /************/
 /* SECTIONS */
 /************/
 h3 {
-    color: #006683;
+    color: #106d88;
     font-size: 12pt;
 }
 h3, p {
@@ -121,7 +121,7 @@ h3, p {
     text-align: justify;
 }
 .enum li { display: inline; }
-.alternating li:nth-child(2n) { color: #006683; }
+.alternating li:nth-child(2n) { color: #106d88; }
 .enum li:before {
     content: " • ";
     color: #707070;
